@@ -22,6 +22,30 @@
   top: 337px;
 }
 
+.connect-wallet-button {
+  position: absolute;
+  width: 212px;
+  height: 43px;
+  left: 1186px;
+  top: 28px;
+
+  background: radial-gradient(298.89% 2102.15% at -16.95% -66.67%, #5223A7 0%, #FF4FB4 100%);
+  box-shadow: 5px 7px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 22px;
+  border: none;
+}
+
+.wallet-text {
+  padding-left: 10px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: white;
+}
+
 #home-title{
   font-family: 'Inter Extrabold';
   font-style: bold;

@@ -2,6 +2,7 @@ import logo from './assets/logo.png'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import { Navbar } from 'react-bootstrap';
+import Wallet from './components/Wallet.js'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar.Brand className='navbar-brand'>
           <img src={logo} className='navbar-logo' alt='logo' />
         </Navbar.Brand>
+        <Wallet/>
       </Navbar>
       <div className='Home-content'>
         <h1 id='home-title'>Blockchain,</h1>
