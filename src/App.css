@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Inter;
+  src: url('./fonts/Inter-Light.otf');
+}
+
+@font-face {
+  font-family: Inter-Extrabold;
+  src: url('./fonts/Inter-ExtraBold.otf');
+}
+
 .App{
   min-height: 100vh;
   background-image: url('./assets/bg.png');
@@ -26,7 +36,7 @@
   position: absolute;
   width: 212px;
   height: 43px;
-  left: 1186px;
+  right: 5vh;
   top: 28px;
 
   background: radial-gradient(298.89% 2102.15% at -16.95% -66.67%, #5223A7 0%, #FF4FB4 100%);
@@ -47,7 +57,7 @@
 }
 
 #home-title{
-  font-family: 'Inter Extrabold';
+  font-family: 'Inter-Extrabold';
   font-style: bold;
   font-weight: 800;
   font-size: 80px;
